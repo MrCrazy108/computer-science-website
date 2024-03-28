@@ -66,9 +66,12 @@ body {
 
 /* Content styling */
 .content {
+    background-color: #f5f5f5; /* Light gray */
     flex: 1;
-    padding: 20px;
+    padding: 20px; /* Add padding to ensure content doesn't touch the edges */
+    width: 100%; /* Ensure it fills the width */
 }
+
 
 /* Header */
 header {
