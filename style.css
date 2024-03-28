@@ -1,135 +1,73 @@
-/* General Styles */
-body {
+/* Reset margin and padding for all elements */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Flexbox layout for the main wrapper to push the footer down */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Content styling */
+.content {
+    flex: 1;
     padding: 20px;
 }
 
 /* Header */
 header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0779e4 3px solid;
-}
-
-header h1 {
-    margin: 0;
-    padding-bottom: 15px;
+    background-color: #800020; /* Burgundy */
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
 }
 
 /* Navigation */
 nav ul {
-    padding: 0;
-    background: #333;
+    list-style-type: none;
+    background-color: #800020;
     text-align: center;
-    margin: 0;
+    padding: 10px 0;
 }
 
 nav ul li {
     display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #fff;
-    padding: 15px 20px;
     text-decoration: none;
+    color: white;
+    padding: 5px 10px;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background: #0779e4;
-}
-
-/* Main Content Styles */
-main {
-    padding: 20px;
-}
-
-/* Typography & Links */
-h1, h2, h3, h4, h5, h6 {
-    color: #333;
-}
-
-p {
-    margin: 10px 0;
-}
-
-a {
-    color: #0779e4;
-}
-
-a:hover {
-    color: #03396c;
-}
-
-/* Utility Classes */
-.text-center {
-    text-align: center;
+    background-color: #f5f5f5; /* Light gray */
+    color: #800020; /* Burgundy */
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #800020; /* Burgundy */
+    color: #ffffff;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
-/* Form Styles */
-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+    padding: 10px 0;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background: #0779e4;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header h1,
-    nav ul {
-        text-align: center;
-    }
-
     nav ul li {
         display: block;
         margin-top: 10px;
