@@ -5,6 +5,52 @@
     box-sizing: border-box;
 }
 
+/* Center the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px; /* Or adjust based on your preference */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the form */
+}
+
+/* Style form fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Make form fields take up the full width of the form container */
+    padding: 10px;
+    margin-bottom: 20px; /* Add space between each field */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional: Rounds the corners of the input fields */
+}
+
+/* Style the label elements */
+label {
+    width: 100%; /* Ensure labels also take full width for consistency */
+    text-align: left; /* Align the text of labels to the left */
+    margin-top: 10px; /* Space above the label */
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    width: auto; /* Adjust the width as necessary, or use '100%' for full width */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #800020; /* Example: Use the burgundy color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above the button */
+}
+
+button[type="submit"]:hover {
+    background-color: #5a0014; /* A darker shade of burgundy for hover effect */
+}
+
 html, body {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
