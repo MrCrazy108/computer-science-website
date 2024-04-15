@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Computer Science Club</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="main-title">
+        <div class="wrapper">
+            <img class="AUS" src="https://resources.finalsite.net/images/f_auto,q_auto/v1654672269/kuwait/j7k0cbibhnwjy3jfjtyz/AUS-logo-11.png" alt="American United School" width="62" height="80">
+                <div class="text-box">
+                    <h1>Computer Science Club</h1>
+                </div>
+        </div>
     </header>
 
     <div class="content">
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2 style="text-align: center;">Contact Us</h2>
             <form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 
@@ -33,13 +32,20 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
                 
-                <button type="submit">Send</button>
+                <button class="btn" type="submit">Send</button>
             </form>
         </section>
     </div>    
-
+    
     <footer>
         <p>© 2024 Computer Science Club</p>
+        <nav>
+            <ul class="btn">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
 
     <script src="script.js"></script>
