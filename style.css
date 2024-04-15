@@ -47,7 +47,11 @@ button[type="submit"] {
     margin-top: 10px; /* Add some space above the button */
 }
 
-button[type="submit"]:hover {
+.btn {
+    transition: background-color 0.3s; /* Animation */
+}
+
+.btn:hover {
     background-color: #5a0014; /* A darker shade of burgundy for hover effect */
 }
 
@@ -72,7 +76,6 @@ body {
     width: 100%; /* Ensure it fills the width */
 }
 
-/* image banner */
 .banner {
     width: 100%;
     height: 100%;
@@ -118,7 +121,6 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
 }
 
 nav ul li a {
@@ -131,6 +133,8 @@ nav ul li a:hover,
 nav ul li a.active {
     background-color: #f5f5f5; /* Light gray */
     color: #800020; /* Burgundy */
+    font-size: 115%;
+    transition: background-color 1s, font-size 1s; /* Animation */
 }
 
 /* Footer */
