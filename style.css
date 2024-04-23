@@ -154,4 +154,29 @@ footer {
         display: block;
         margin-top: 10px;
     }
+
+    /* Center the embedded gallery and make it bigger */
+    .gallery blockquote {
+        max-width: 90%; /* Adjust the width as needed for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Center the embedded gallery and make it bigger */
+    .gallery blockquote {
+        max-width: 95%; /* Adjust the width as needed for even smaller screens */
+    }
+}
+
+/* Center the embedded gallery and make it bigger */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust as needed */
+}
+
+.gallery blockquote {
+    max-width: 80%; /* Adjust the width as needed */
+    margin: auto;
 }
