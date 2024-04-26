@@ -1,0 +1,46 @@
+.gap {
+    row-gap: .75rem;
+    column-gap: 2rem;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    display: grid;
+    align-content: center;
+}
+
+.line {
+    background-color: black;
+    width: 40.3rem;
+    height: .25rem;
+    margin-right: auto;
+    grid-column: span 3 / span 3;
+}
+
+.arrow {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 90deg;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.ar1 {
+    fill:  #800020;
+}
+
+.ar2 {
+    fill:  #800020;
+}
+
+.ar3 {
+    fill:  #800020;
+}
+
+.info {
+    font-size: 30px;
+}
+
+svg {
+    vertical-align: middle;
+}
