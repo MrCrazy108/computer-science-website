@@ -106,7 +106,7 @@ button.btn {
 
 /* Apply custom cursor to the whole body */
 body {
-    cursor: url('"C:\Users\user\Documents\GitHub\computer-science-website\Unit 01 (normal select).cur"'), auto;
+    cursor: url('Unit 01 (normal select).cur'), auto;
 }
 
 .boxes {
