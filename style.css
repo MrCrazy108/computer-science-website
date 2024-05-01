@@ -1,22 +1,22 @@
 /* General Body Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
 
 /* Header */
 header.main-title {
-    background-color: #007BFF;
+    background-color: #800020; /* Burgundy */
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
 
 header.main-title img.AUS {
-    height: 50px;
+    height: 60px; /* Adjust size to match the banner */
     vertical-align: middle;
     margin-right: 20px;
 }
@@ -46,18 +46,23 @@ nav ul li a {
 
 /* Content Section */
 .content {
+    max-width: 1200px; /* Set max-width to match the banner */
     padding: 20px;
     background-color: white;
-    margin: 20px;
+    margin: 20px auto; /* Centering the content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     border-radius: 8px;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #800020; /* Burgundy */
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 footer nav ul {
@@ -76,7 +81,7 @@ footer nav ul li a {
 }
 
 .btn {
-    background-color: #007BFF;
+    background-color: #800020; /* Burgundy */
     color: white;
     padding: 8px 15px;
     text-decoration: none;
@@ -85,11 +90,16 @@ footer nav ul li a {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #540014; /* Darker Burgundy */
 }
 
 /* Additional styles for buttons */
 button.btn {
     border: none;
     cursor: pointer;
+}
+
+/* Apply custom cursor to the whole body */
+body {
+    cursor: url('"C:\Users\user\Documents\GitHub\computer-science-website\Unit 01 (normal select).cur"'), auto;
 }
