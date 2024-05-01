@@ -110,32 +110,32 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
-    cursor: url('/cursors/Pastel Point.ani'), auto; /* Default cursor */
+    cursor: url('/Cursor/Pastel Point.ani'), auto; /* Default cursor */
 }
 
 /* Link Hover */
 a:hover {
-    cursor: url('/cursors/Pastel Link.ani'), pointer;
+    cursor: url('/Cursor/Pastel Link.ani'), pointer;
 }
 
 /* Text Fields */
 input[type="text"], textarea {
-    cursor: url('/cursors/Pastel Text.ani'), text;
+    cursor: url('/Cursor/Pastel Text.ani'), text;
 }
 
 /* Busy Indicator */
 body.busy {
-    cursor: url('/cursors/Pastel Busy.ani'), progress;
+    cursor: url('/Cursor/Pastel Busy.ani'), progress;
 }
 
 /* Unavailable Areas */
 .unavailable {
-    cursor: url('/cursors/Pastel Unavailable.ani'), not-allowed;
+    cursor: url('/Cursor/Pastel Unavailable.ani'), not-allowed;
 }
 
 /* Precision Tasks */
 .precision-needed {
-    cursor: url('/cursors/Pastel Precision.cur'), crosshair;
+    cursor: url('/Cursor/Pastel Precision.cur'), crosshair;
 }
 
 
