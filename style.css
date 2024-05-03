@@ -110,32 +110,7 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
-    cursor: url('Pastel Point.ani'), auto; /* Default cursor */
-}
-
-/* Link Hover */
-a:hover {
-    cursor: url('Pastel Link.ani'), pointer;
-}
-
-/* Text Fields */
-input[type="text"], textarea {
-    cursor: url('Pastel Text.ani'), text;
-}
-
-/* Busy Indicator */
-body.busy {
-    cursor: url('Pastel Busy.ani'), progress;
-}
-
-/* Unavailable Areas */
-.unavailable {
-    cursor: url('Pastel Unavailable.ani'), not-allowed;
-}
-
-/* Precision Tasks */
-.precision-needed {
-    cursor: url('Pastel Precision.cur'), crosshair;
+    cursor: url('Unit 03 [num] (normal select).cur'), auto; /* Default cursor */
 }
 
 
