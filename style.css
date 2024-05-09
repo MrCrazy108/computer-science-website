@@ -4,6 +4,8 @@ body {
     background-color: #87CEEB;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    cursor: url('Unit 03 [num] (normal select).cur'), auto; /* Default cursor */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 header.main-title {
     background-color: #212121;
-    color: white;
+    color: #ADD8E6;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -47,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ADD8E6;
     text-decoration: none;
     font-weight: bold;
     font-size: 100%;
@@ -61,9 +63,10 @@ nav ul li a {
 
 /* Content Section */
 .content {
+    max-width: 1200px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #ADD8E6;
-    margin: 20px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -73,7 +76,7 @@ nav ul li a {
 /* Footer */
 footer {
     background-color: #212121;
-    color: white;
+    color: #ADD8E6;
     text-align: center;
     padding: 10px 0;
 }
@@ -92,13 +95,13 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    color: white;
+    color: #ADD8E6;
     text-decoration: none;
 }
 
 .btn {
     background-color: #007BFF;
-    color: white;
+    color: #ADD8E6;
     padding: 8px 15px;
     text-decoration: none;
     border-radius: 5px;
@@ -118,15 +121,6 @@ button.btn {
 }
 
 /* General Body Styles */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-    cursor: url('Unit 03 [num] (normal select).cur'), auto; /* Default cursor */
-}
-
-
 .boxes {
     display: flex;
     align-items: center;
