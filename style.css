@@ -25,7 +25,7 @@ header.main-title {
 header.main-title img.AUS {
     height: 50px;
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 header.main-title.text-box h1 {
@@ -71,6 +71,10 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -176,7 +180,7 @@ button.btn {
 }
 
 .ar3 {
-    fill:  #007BFF;
+   fill:  #007BFF;
 }
 
 .info {
