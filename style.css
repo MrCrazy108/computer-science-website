@@ -25,7 +25,8 @@ header.main-title {
 header.main-title img.AUS {
     height: 50px;
     vertical-align: middle;
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header.main-title.text-box h1 {
