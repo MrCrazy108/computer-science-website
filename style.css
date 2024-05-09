@@ -1,19 +1,23 @@
-/* General Body Styles */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #87CEEB;
     margin: 0;
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
 /* Header */
 header.main-title {
-    background-color: #007BFF;
+    background-color: #212121;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
+    padding: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header.main-title img.AUS {
@@ -22,7 +26,7 @@ header.main-title img.AUS {
     margin-right: 20px;
 }
 
-header.main-title .text-box h1 {
+header.main-title.text-box h1 {
     display: inline;
     font-size: 24px;
     vertical-align: middle;
@@ -32,6 +36,9 @@ header.main-title .text-box h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
@@ -58,11 +65,14 @@ nav ul li a {
     background-color: white;
     margin: 20px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #212121;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -71,6 +81,9 @@ footer {
 footer nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer nav ul li {
@@ -141,7 +154,7 @@ body {
 /* -------------------Events style------------------- */
 
 .gap {
-    row-gap: .75rem;
+    row-gap:.75rem;
     column-gap: 2rem;
     grid-template-columns: auto minmax(0, 1fr) auto;
     display: grid;
@@ -151,7 +164,7 @@ body {
 .line {
     background-color: black;
     width: 40.3rem;
-    height: .25rem;
+    height:.25rem;
     margin-right: auto;
     grid-column: span 3 / span 3;
 }
