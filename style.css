@@ -74,6 +74,7 @@ nav ul li a {
 }
 
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -180,7 +181,7 @@ button.btn {
 }
 
 .ar3 {
-   fill:  #007BFF;
+    fill:  #007BFF;
 }
 
 .info {
