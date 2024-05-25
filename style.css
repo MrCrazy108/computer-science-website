@@ -1,5 +1,6 @@
 /* General Styles */
 body {
+    font-size: larger;
     font-family: 'Open Sans', sans-serif;
     background-color: #b6eaff;
     margin: 0;
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 header.main-title {
+    font-size: 90%;
     background-color: #212121;
     color: #ADD8E6;
     padding: 20px;
@@ -23,10 +25,67 @@ header.main-title {
 }
 
 header.main-title img.AUS {
-    height: 50px;
+    height: 60px;
+    width: auto;
     vertical-align: middle;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    max-height: 10%;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%
+    }
+    100% {
+        left: -400%;
+    }
 }
 
 header.main-title.text-box h1 {
@@ -34,6 +93,7 @@ header.main-title.text-box h1 {
     font-size: 24px;
     vertical-align: middle;
 }
+
 
 /* Navigation Menu */
 nav ul {
@@ -64,14 +124,12 @@ nav ul li a {
 
 /* Content Section */
 .content {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 20px;
-    background-color: #ADD8E6;
+    padding: 2%;
+    background-color: #ADD8E6; /* Change the color*/
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
@@ -163,9 +221,8 @@ button.btn {
 
 .line {
     background-color: black;
-    width: 40.3rem;
+    width: 15cm;
     height:.25rem;
-    margin-right: auto;
     grid-column: span 3 / span 3;
 }
 
